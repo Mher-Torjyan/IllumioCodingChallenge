@@ -17,3 +17,5 @@ ranges in port and IP address and cases which are exact matches and where
 the ip and range falls on the upper or lower bound. If I had more time I would implement 
 error handling to catch incorrect input. I would also add further unit testing to 
 check more edge cases and create a script to automatically parse them. 
+
+FILES ARE IN com/company sorry for the confusion thats just how intelliJ handles its files. 
