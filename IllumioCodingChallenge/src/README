@@ -1,0 +1,19 @@
+TIME BEGAN : 11:00 
+TIME ENDED : 12:30
+
+I understand that more compact data structures could be implemented
+but are not easily handled by Java. If I were to rewrite this code, 
+I would use C++ which allows for unsigned values. Also fields that do 
+not have upper and lower bound, a hash map would have been a more efficient
+way to compare. Furthermore, if the lower and upper bound are identical
+I can only make 1 comparison. 
+
+I believe that my implementation of IP addresses as a long integer type 
+comparison is more efficient than simply comparing as individual Strings.
+ 
+For testing I checked the obvious edge cases in my program which are places
+where the most significant bit is not the same. I also tested cases that have
+ranges in port and IP address and cases which are exact matches and where 
+the ip and range falls on the upper or lower bound. If I had more time I would implement 
+error handling to catch incorrect input. I would also add further unit testing to 
+check more edge cases and create a script to automatically parse them. 
